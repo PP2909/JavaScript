@@ -34,7 +34,7 @@ const car = {
 //object.freeze(car); //we cant add a new key and valuebpair and we can't change or update the existing value
 
 Object.seal(car)// we cant add a new key and value pair but we can change and update the exisiting value
-
+x
 car.model="XUV700"
 car.color="zblack";
 console.log(car);
